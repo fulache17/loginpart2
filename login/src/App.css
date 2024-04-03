@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 130, 185);
+  font-weight: 300;
+}
+.App-logo{
+  width: 110px;
+  margin:0 auto;
+}
+.intro{
+  font-size: 19px;
+  font-family: Arial;
+}
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  background-color: white;
+  
+}
+
+@media screen and (min-width: 800px) {
+  .auth-form-container {
+    padding: 3rem;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 30px;
+    margin: 0.5rem;
+    font-family:"Poppins", sans-serif;
+    filter: drop-shadow(10px 7px 20px #04d9ff);
+    
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid rgb(101, 130, 185);
+  border-radius: 10px;
+  font-size: 14px;
+  font-family:"Poppins", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: rgb(101, 130, 185);
+  border-radius: 10px;
+  cursor: pointer;
+  color: #e0e0e0;
+  font-family:"Poppins", sans-serif;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  gap: 30px;
+
+}
+.link-btn {
+  background: none;
+  color: rgb(151, 64, 64);
+  text-decoration: underline;
+  font-family:"Poppins", sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .auth-form-container {
+    padding: 3rem;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 30px;
+    margin: 0.5rem;
+    font-family:"Poppins", sans-serif;
+    filter: drop-shadow(10px 7px 20px #04d9ff );
+  }
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid rgb(101, 130, 185);
+    border-radius: 7px;
+    font-size: 12px;
+    font-family:"Poppins", sans-serif;
+  }
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    background-color: white;
+}
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 130, 185);
+  font-weight: 300;
+  font-size: 12.5px;
+}
+.App-logo{
+  width: 100px;
+  margin:0 auto;
+}
+button {
+  border: none;
+  background-color: rgb(101, 130, 185);
+  border-radius: 10px;
+  cursor: pointer;
+  color: #e0e0e0;
+  font-family:"Poppins", sans-serif;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  gap: 30px;
+
+}
+.link-btn {
+  position: justify;
+  background: none;
+  color: rgb(151, 64, 64);
+  text-decoration: underline;
+  font-family:"Poppins", sans-serif;
+  font-size: 9px;
+}
+@media screen and (max-width: 370px) {
+  .auth-form-container {
+    padding: 3rem;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 30px;
+    margin: 0.5rem;
+    font-family:"Poppins", sans-serif;
+    filter: drop-shadow(10px 7px 20px #04d9ff  );
+  }
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid rgb(101, 130, 185);
+    border-radius: 7px;
+    font-size: 12px;
+    font-family:"Poppins", sans-serif;
+  }
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    background-color: white;
+}
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 130, 185);
+  font-weight: 300;
+  font-size: 10px;
+}
+.App-logo{
+  width: 90px;
+  margin:0 auto;
+}
+button {
+  border: none;
+  background-color: rgb(101, 130, 185);
+  border-radius: 10px;
+  cursor: pointer;
+  color: #e0e0e0;
+  font-family:"Poppins", sans-serif;
+  width: 150px;
+  height: 25px;
+  margin: 0 auto;
+  gap: 30px;
+  font-size: 12px;
+
+}
+.link-btn {
+  position: justify;
+  background: none;
+  color: rgb(151, 64, 64);
+  text-decoration: underline;
+  font-family:"Poppins", sans-serif;
+  font-size: 7px;
+}
+}
+}
