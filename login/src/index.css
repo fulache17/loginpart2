@@ -1,8 +1,11 @@
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
-    
+  margin: 0;
+  padding: 0;
+
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

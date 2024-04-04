@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './App.css';
 import Login from "./forms/Login";
 import Register from "./forms/Register";
+import Sidebar from './components/Sidebar';
 
 const App = () => {
   const [isRegistering, setIsRegistering] = useState(false);
