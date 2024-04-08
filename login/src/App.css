@@ -19,7 +19,7 @@
   }
 
   .intro {
-    font-size: 19px;
+    font-size: 1.188rem;
     font-family: Arial;
   }
 
@@ -56,7 +56,7 @@
     padding: 1rem;
     border: 1px solid rgb(101, 130, 185);
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Poppins", sans-serif;
   }
 
@@ -96,7 +96,7 @@
       padding: 1rem;
       border: 1px solid rgb(101, 130, 185);
       border-radius: 7px;
-      font-size: 12px;
+      font-size: 0.75rem;
       font-family: "Poppins", sans-serif;
     }
 
@@ -117,7 +117,7 @@
       justify-content: center;
       color: rgb(101, 130, 185);
       font-weight: 300;
-      font-size: 12.5px;
+      font-size: 0.781rem;
     }
 
     .App-logo {
@@ -145,7 +145,7 @@
       color: rgb(151, 64, 64);
       text-decoration: underline;
       font-family: "Poppins", sans-serif;
-      font-size: 9px;
+      font-size: 0.563rem;
     }
 
     @media screen and (max-width: 500px) {
@@ -163,7 +163,7 @@
         padding: 1rem;
         border: 1px solid rgb(101, 130, 185);
         border-radius: 7px;
-        font-size: 12px;
+        font-size: 0.75rem;
         font-family: "Poppins", sans-serif;
       }
 
@@ -184,7 +184,7 @@
         justify-content: center;
         color: rgb(101, 130, 185);
         font-weight: 300;
-        font-size: 10px;
+        font-size: 0.625rem;
       }
 
       .App-logo {
@@ -213,7 +213,7 @@
         color: rgb(151, 64, 64);
         text-decoration: underline;
         font-family: "Poppins", sans-serif;
-        font-size: 7px;
+        font-size: 0.438rem;
       }
     }
   }
@@ -248,7 +248,7 @@
   }
   .bars{
     display: flex;
-    font-size: 25px;
+    font-size: 1.25rem;
     margin-left: 50px;
   }
   .link{
@@ -274,7 +274,7 @@
     border-bottom-right-radius: 15px;
   }
   .icon, .link_text{
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .employee-container {
     padding: 3rem;
@@ -285,12 +285,13 @@
     text-align: center;
     box-shadow: 2px 2px 2px rgb(51, 50, 50);
     box-shadow: 15%;
-    font-family: "Overpass", sans-serif;
     max-width: 400px;
     font-weight: 200;
+    position: relative;
+
   }
   .employee-container p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgb(101, 130, 185);
   }
   .employee-container .gifIcon{
@@ -356,7 +357,7 @@
   max-width: 400px;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 30px;
   background-color:#fff;
   text-align:left;
   box-shadow: 2px 2px 2px rgb(51, 50, 50);
@@ -431,8 +432,8 @@
   }
 
   .form-container select option:checked {
-    background-color: #6582BD; /* Change background color of selected option */
-    color: #fff; /* Change text color of selected option */
+    background-color: #6582BD;
+    color: #fff; 
   }
   .form-container button {
   width: 100%;
@@ -465,7 +466,7 @@
   .employee-history {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 30px;
   background-color: #fff;
   text-align: center;
   box-shadow: 2px 2px 2px rgb(51, 50, 50);
@@ -477,6 +478,7 @@
   background-color: #312f2fb9;
   row-gap: 2px;
   color: #fff;
+  border-radius: 30px 30px 0px 0px;
   }
 
   table {
@@ -506,3 +508,59 @@
   font-weight: 300;
   }
 
+  .selfie-container {
+    display: inline-table;
+    grid-template-columns: 1fr 1fr; /* Two columns, first column takes 1 fraction and second takes 1 fraction */
+    gap: 20px; /* Gap between grid items, adjust as needed */
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container-taena {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+
+.clear-container {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.selfie-button {
+  background-color: #c45515;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.clear-button {
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.selfie-button, .clear-button {
+  margin: auto;
+  display: block;
+}

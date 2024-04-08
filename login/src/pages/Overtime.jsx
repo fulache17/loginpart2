@@ -26,7 +26,7 @@ const Overtime = () => {
     return (
         <>
          <div className="employee-background">
-            <div>
+            <div className="wah">
 
                 <h2>Request for Overtime</h2>
         <div className="form-container">

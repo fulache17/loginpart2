@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-    FaTh,
     FaBars,
     FaSmileBeam,
     FaSignOutAlt

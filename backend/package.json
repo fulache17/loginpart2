@@ -2,7 +2,6 @@
   "name": "your-app",
   "version": "0.1.0",
   "proxy": "http://localhost:5174",
-
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
